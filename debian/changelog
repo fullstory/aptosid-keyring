@@ -1,0 +1,12 @@
+kanotix-keyring (2006.02.19) unstable; urgency=low
+
+  * fix lintian errors.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 19 Feb 2006 20:19:42 +0100
+
+kanotix-keyring (2006.02.06) unstable; urgency=low
+
+  * Initial release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 13 Dec 2005 23:42:59 +0100
+
