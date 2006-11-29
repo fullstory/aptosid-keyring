@@ -1,3 +1,9 @@
+sidux-keyring (2006.11.30) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Nov 2006 15:33:29 +0100
+
 sidux-keyring (2006.11.29) unstable; urgency=low
 
   * initially release sidux-keyring, conflict with kanotix-keyring (it tries
