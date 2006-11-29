@@ -1,29 +1,32 @@
-Source: kanotix-keyring
+Source: sidux-keyring
 Section: misc
 Priority: standard
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends-Indep: cdbs, debhelper (>= 5.0.0)
-Standards-Version: 3.6.2
+Build-Depends: cdbs, debhelper (>= 5)
+Standards-Version: 3.7.2
 
-Package: kanotix-keyrings
+Package: sidux-keyrings
 Architecture: all
-Depends: gnupg (>= 1.0.6-4), debian-archive-keyring, kanotix-archive-keyring
-Description: Meta package to grab all useful GnuPG keys for Kanotix
+Depends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-archive-keyring
+Conflicts: kanotix-keyrings
+Description: Meta package to grab all useful GnuPG keys for Sidux
  This meta package is intended to  install all appropriate GnuPG keys for a 
- Kanotix installation.
+ Sidux installation.
 
-Package: kanotix-keyring
+Package: sidux-keyring
 Architecture: all
-Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, kanotix-archive-keyring
-Description: GnuPG keys of Kanotix Developers
- The Kanotix project wants developers to digitally sign the announcements 
+Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-archive-keyring
+Conflicts: kanotix-keyring
+Description: GnuPG keys of Sidux Developers
+ The Sidux project wants developers to digitally sign the announcements 
  of their packages with GnuPG, to protect against forgeries. This package 
  contains keyrings of GnuPG keys of developers.
 
-Package: kanotix-archive-keyring
+Package: sidux-archive-keyring
 Architecture: all
-Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, kanotix-keyring
-Description: GnuPG archive keys of the Kanotix archive
- The Kanotix project digitally signs its Release files. This package
+Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-keyring
+Conflicts: kanotix-archive-keyring
+Description: GnuPG archive keys of the Sidux archive
+ The Sidux project digitally signs its Release files. This package
  contains the archive keys used for that.
 

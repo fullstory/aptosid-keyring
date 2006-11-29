@@ -1,0 +1,16 @@
+#!/bin/sh
+
+if [ -x /usr/bin/apt-key ]; then
+	# add new keys
+	/usr/bin/apt-key add /usr/share/keyrings/sidux-keyring.gpg
+
+	# remove obsolete/ revoked keys
+	if [ -s /usr/share/keyrings/sidux-removed-keys.gpg ]; then
+		for i in $(gpg --with-colons /usr/share/keyrings/sidux-removed-keys.gpg | grep ^pub | cut -d\: -f 5); do
+			/usr/bin/apt-key del "$i" || true
+		done
+	fi
+fi
+
+#DEBHELPER#
+
