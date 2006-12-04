@@ -2,7 +2,9 @@ sidux-keyring (2006.11.30) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 29 Nov 2006 15:33:29 +0100
+  * fixed mispelling
+
+ -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 14:59:26 +0100
 
 sidux-keyring (2006.11.29) unstable; urgency=low
 
