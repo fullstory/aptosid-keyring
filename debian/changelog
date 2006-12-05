@@ -1,10 +1,12 @@
-sidux-keyring (2006.11.30) UNRELEASED; urgency=low
+sidux-keyring (2006.11.30) unstable; urgency=low
 
-  * NOT RELEASED YET
-
+  [ Joaquim Boura ]
   * fixed mispelling
 
- -- Joaquim Boura <x-un-i@sidux.com>  Mon,  4 Dec 2006 14:59:26 +0100
+  [ Stefan Lippers-Hollmann ]
+  * tag and upload.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  5 Dec 2006 13:51:45 +0100
 
 sidux-keyring (2006.11.29) unstable; urgency=low
 
