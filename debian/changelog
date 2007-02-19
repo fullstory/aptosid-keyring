@@ -1,3 +1,9 @@
+sidux-keyring (2007.02.20) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 19 Feb 2007 17:00:23 +0100
+
 sidux-keyring (2007.02.19) unstable; urgency=low
 
   * The transition period is over, FB1A399A71409CDF revoked, 3916C431F80994F6
