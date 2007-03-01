@@ -8,7 +8,6 @@ Standards-Version: 3.7.2
 Package: sidux-keyrings
 Architecture: all
 Depends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-archive-keyring
-Conflicts: kanotix-keyrings
 Description: Meta package to grab all useful GnuPG keys for sidux
  This meta package is intended to  install all appropriate GnuPG keys for a 
  sidux installation.
@@ -16,7 +15,6 @@ Description: Meta package to grab all useful GnuPG keys for sidux
 Package: sidux-keyring
 Architecture: all
 Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-archive-keyring
-Conflicts: kanotix-keyring
 Description: GnuPG keys of sidux Developers
  The sidux project wants developers to digitally sign the announcements 
  of their packages with GnuPG, to protect against forgeries. This package 
@@ -25,7 +23,6 @@ Description: GnuPG keys of sidux Developers
 Package: sidux-archive-keyring
 Architecture: all
 Recommends: gnupg (>= 1.0.6-4), debian-archive-keyring, sidux-keyring
-Conflicts: kanotix-archive-keyring
 Description: GnuPG archive keys of the sidux archive
  The sidux project digitally signs its Release files. This package
  contains the archive keys used for that.

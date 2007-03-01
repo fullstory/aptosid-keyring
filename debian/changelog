@@ -1,8 +1,9 @@
-sidux-keyring (2007.02.20) UNRELEASED; urgency=low
+sidux-keyring (2007.03.01) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * kanotix-keyrings, kanotix-keyring and kanotix-keyring were never part of
+    sidux or debian, don't conflict with those.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 19 Feb 2007 17:00:23 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 18:52:25 +0100
 
 sidux-keyring (2007.02.19) unstable; urgency=low
 
