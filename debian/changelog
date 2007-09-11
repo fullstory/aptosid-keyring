@@ -1,8 +1,9 @@
 sidux-keyring (2007.03.02) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * add VCS control headers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 18:57:41 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Sep 2007 20:23:49 +0200
 
 sidux-keyring (2007.03.01) unstable; urgency=low
 
