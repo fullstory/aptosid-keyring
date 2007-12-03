@@ -3,7 +3,7 @@ Section: misc
 Priority: standard
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: cdbs, debhelper (>= 5)
-Standards-Version: 3.7.2
+Standards-Version: 3.7.3
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-keyring/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-keyring/trunk/
 
