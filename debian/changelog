@@ -1,3 +1,9 @@
+sidux-keyring (2007.03.04) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 09 Dec 2007 00:01:30 +0100
+
 sidux-keyring (2007.03.03) unstable; urgency=low
 
   * update to Standards-Version 3.7.3, no changes necessary.
