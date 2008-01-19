@@ -1,8 +1,8 @@
-sidux-keyring (2007.03.04) UNRELEASED; urgency=low
+sidux-keyring (2007.03.04) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * update to debhelper compat 6.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 09 Dec 2007 00:01:30 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 19 Jan 2008 02:35:53 +0100
 
 sidux-keyring (2007.03.03) unstable; urgency=low
 
