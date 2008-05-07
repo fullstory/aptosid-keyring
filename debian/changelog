@@ -1,8 +1,8 @@
-sidux-keyring (2007.03.06) UNRELEASED; urgency=low
+sidux-keyring (2007.03.06) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to the new dh implementation of debhelper 7.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 21 Feb 2008 01:12:35 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 02:23:14 +0200
 
 sidux-keyring (2007.03.05) unstable; urgency=low
 
