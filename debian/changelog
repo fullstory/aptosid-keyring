@@ -1,9 +1,8 @@
-sidux-keyring (2007.03.08) UNRELEASED; urgency=low
+sidux-keyring (2007.03.08) unstable; urgency=low
 
-  * NOT RELEASED YET
   * make lintian happy and depend on ${misc:Depends}.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 03:04:59 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:52:53 +0100
 
 sidux-keyring (2007.03.07) unstable; urgency=low
 
