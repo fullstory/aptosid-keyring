@@ -1,15 +1,9 @@
 #!/bin/sh
 
-if [ -x /usr/bin/apt-key ]; then
-		# remove obsolete/ revoked keys
-		for i in $(gpg --with-colons /usr/share/keyrings/sidux-archive-keyring.gpg 2>/dev/null | grep ^pub | cut -d\: -f 5); do
-			if ! gpg --with-colons  /usr/share/keyrings/sidux-keyring.gpg 2>/dev/null | grep -q "$i" 2>/dev/null; then
-				/usr/bin/apt-key del "$i" || true
-			fi
-		done
+set -e
 
-		/usr/bin/apt-key update || true
+if [ -x /usr/bin/apt-key ]; then
+	apt-key update || :
 fi
 
 #DEBHELPER#
-

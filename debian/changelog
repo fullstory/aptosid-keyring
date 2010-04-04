@@ -1,8 +1,16 @@
-sidux-keyring (2007.03.09) UNRELEASED; urgency=low
+sidux-keyring (2007.03.09) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * Switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.8.4, no changes necessary.
+  * drop revoking obsolete keys, this avoid having to call gpg as root and
+    thereby clobbering root's $HOME; thanks to kelmo for noticing.
+  * clarify that version two of the GPL applies.
+  * drop needles absolute refernecing to apt-key.
+  * use "set -e" in maintainerscipts, even though we effectively ignore any
+    errors in the non-templated parts.
+  * fix lintian related spelling complaints.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:54:00 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Apr 2010 17:49:11 +0200
 
 sidux-keyring (2007.03.08) unstable; urgency=low
 

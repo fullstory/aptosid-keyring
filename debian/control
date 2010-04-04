@@ -3,7 +3,7 @@ Section: misc
 Priority: standard
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.0
+Standards-Version: 3.8.4
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-keyring/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-keyring/trunk/
 
@@ -13,8 +13,8 @@ Depends: ${misc:Depends},
          gnupg (>= 1.0.6-4),
          debian-archive-keyring,
          sidux-archive-keyring
-Description: Meta package to grab all useful GnuPG keys for sidux
- This meta package is intended to  install all appropriate GnuPG keys for a 
+Description: metapackage to grab all useful GnuPG keys for sidux
+ This metapackage is intended to install all appropriate GnuPG keys for a 
  sidux installation.
 
 Package: sidux-keyring
@@ -35,5 +35,5 @@ Recommends: gnupg (>= 1.0.6-4),
             debian-archive-keyring,
             sidux-keyring
 Description: GnuPG archive keys of the sidux archive
- The sidux project digitally signs its Release files. This package
+ The sidux project digitally signs its release files. This package
  contains the archive keys used for that.
