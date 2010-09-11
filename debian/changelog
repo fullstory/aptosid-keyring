@@ -1,8 +1,8 @@
-sidux-keyring (2007.03.10) UNRELEASED; urgency=low
+aptosid-keyring (2010.08.30) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * adapt for aptosid.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 04 Apr 2010 17:49:56 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 30 Aug 2010 23:24:39 +0200
 
 sidux-keyring (2007.03.09) unstable; urgency=low
 
