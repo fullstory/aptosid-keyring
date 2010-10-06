@@ -1,3 +1,9 @@
+aptosid-keyring (2010.10.07) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 06 Oct 2010 14:28:59 +0200
+
 aptosid-keyring (2010.10.06) unstable; urgency=low
 
   * switch to dpkg-source 3.0 (native) format.
