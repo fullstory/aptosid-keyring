@@ -14,7 +14,7 @@ Depends: ${misc:Depends},
  apt (>= 0.6.0),
  debian-archive-keyring,
  gnupg (>= 1.0.6-4)
-Description: GnuPG archive keys oif the aptosid archive
+Description: GnuPG archive keys of the aptosid archive
  The archive project digitally signs its release files. This package contains
  the archive keys used for that and can be used to support signature 
  verification ("apt-secure") for:
