@@ -11,9 +11,10 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/aptosid-keyring/trunk/
 Package: aptosid-archive-keyring
 Architecture: all
 Depends: ${misc:Depends},
- apt (>= 0.6.0),
+ apt (>= 0.7.25.1),
  debian-archive-keyring,
- gnupg (>= 1.0.6-4)
+ gpgv
+Recommends: gnupg
 Description: GnuPG archive keys of the aptosid archive
  The archive project digitally signs its release files. This package contains
  the archive keys used for that and can be used to support signature 

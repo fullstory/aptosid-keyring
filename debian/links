@@ -1,1 +1,2 @@
 /usr/share/aptosid-archive-keyring/aptosid-archive-keyring.gpg	/usr/share/keyrings/aptosid-archive-keyring.gpg
+/usr/share/aptosid-archive-keyring/aptosid-archive-keyring.gpg	/etc/apt/trusted.gpg.d/aptosid-archive-keyring.gpg

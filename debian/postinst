@@ -5,8 +5,15 @@ set -e
 
 case "$1" in
 	configure)
-		apt-key add /usr/share/keyrings/aptosid-archive-keyring.gpg
-		apt-key del F80994F6 2>/dev/null || :
+		if dpkg --compare-versions '2011.02.09' '>' "$2" && which gpg > /dev/null; then
+			TRUSTEDFILE='/etc/apt/trusted.gpg'
+			eval $(apt-config shell TRUSTEDFILE Apt::GPGV::TrustedKeyring)
+			eval $(apt-config shell TRUSTEDFILE Dir::Etc::Trusted/f)
+			if [ -e "$TRUSTEDFILE" ]; then
+				apt-key --keyring "$TRUSTEDFILE" del F80994F6 2>/dev/null || :
+				apt-key --keyring "$TRUSTEDFILE" del E3BD538B 2>/dev/null || :
+			fi
+		fi
 		;;
 	remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
 		;;
