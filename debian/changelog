@@ -1,8 +1,11 @@
-aptosid-keyring (2010.10.07) UNRELEASED; urgency=low
+aptosid-keyring (2010.02.09) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * install the keyring in APT's trusted.gpg.d directory
+    instead of adding the key to trusted.gpg file
+  * Depend on gpgv as it is enough for apt-secure and
+    recommend gnupg only to ensure a clean upgrade
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 06 Oct 2010 14:28:59 +0200
+ -- David Kalnischkies <kalnischkies@gmail.com>  Wed, 09 Feb 2011 11:40:28 +0100
 
 aptosid-keyring (2010.10.06) unstable; urgency=low
 
