@@ -1,3 +1,9 @@
+aptosid-keyring (2011.02.10) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 09 Feb 2011 13:02:09 +0100
+
 aptosid-keyring (2011.02.09) unstable; urgency=low
 
   * install the keyring in APT's trusted.gpg.d directory
