@@ -1,10 +1,4 @@
-aptosid-keyring (2010.02.10) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 09 Feb 2011 12:47:11 +0100
-
-aptosid-keyring (2010.02.09) unstable; urgency=low
+aptosid-keyring (2011.02.09) unstable; urgency=low
 
   * install the keyring in APT's trusted.gpg.d directory
     instead of adding the key to trusted.gpg file
