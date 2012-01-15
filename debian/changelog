@@ -1,8 +1,8 @@
-aptosid-keyring (2011.04.30) UNRELEASED; urgency=low
+aptosid-keyring (2012.01.16) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to compat level 9.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Apr 2011 03:36:19 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 16 Jan 2012 00:12:36 +0100
 
 aptosid-keyring (2011.04.29) unstable; urgency=low
 
