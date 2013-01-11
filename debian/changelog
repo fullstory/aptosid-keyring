@@ -1,8 +1,8 @@
-aptosid-keyring (2012.02.24) UNRELEASED; urgency=low
+aptosid-keyring (2013.01.12) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.4, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 23 Feb 2012 15:37:17 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 00:29:53 +0100
 
 aptosid-keyring (2012.02.23) unstable; urgency=low
 
