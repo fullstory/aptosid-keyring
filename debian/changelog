@@ -1,8 +1,9 @@
-aptosid-keyring (2013.01.13) UNRELEASED; urgency=low
+aptosid-keyring (2014.04.13) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.5, no changes necessary.
+  * debian/control: switch Vcs tags to github.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 12 Jan 2013 00:30:26 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 13 Apr 2014 18:22:48 +0200
 
 aptosid-keyring (2013.01.12) unstable; urgency=low
 
