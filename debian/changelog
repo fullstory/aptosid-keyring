@@ -1,10 +1,4 @@
-aptosid-keyring (2014.04.15) UNRELEASED; urgency=medium
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 29 Dec 2014 21:27:35 +0100
-
-aptosid-keyring (2014.04.14) unstable; urgency=medium
+aptosid-keyring (2014.12.29) unstable; urgency=medium
 
   * add new gpg key 0xB1D142ED.
 
