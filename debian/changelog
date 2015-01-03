@@ -2,8 +2,9 @@ aptosid-keyring (2015.01.03) unstable; urgency=medium
 
   * convert to machine readable copyright.
   * bump standards version to 3.9.6, no changes necessary.
+  * drop upgrade support from ancient versions.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 03:29:32 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 03:32:36 +0100
 
 aptosid-keyring (2014.12.29) unstable; urgency=medium
 
