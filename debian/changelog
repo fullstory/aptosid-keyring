@@ -1,11 +1,12 @@
-aptosid-keyring (2015.01.04) UNRELEASED; urgency=medium
+aptosid-keyring (2015.09.10) unstable; urgency=medium
 
-  * NOT RELEASED YET
   * drop gpgv as hard dependency, we don't actually call it ourselves.
   * only suggest gnupg and add gnupg2 as primary alternative.
   * allow parallel building.
+  * stick to using gnupg v1.4 for assembling the archive keyring at build
+    time, as apt <<1.1~ can't understand the new gnupg v2.1 keybox format.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 03:33:30 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Sep 2015 01:22:13 +0200
 
 aptosid-keyring (2015.01.03) unstable; urgency=medium
 
