@@ -1,6 +1,8 @@
 aptosid-keyring (2015.01.04) UNRELEASED; urgency=medium
 
   * NOT RELEASED YET
+  * drop gpgv as hard dependency, we don't actually call it ourselves.
+  * only suggest gnupg and add gnupg2 as primary alternative.
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 03 Jan 2015 03:33:30 +0100
 
