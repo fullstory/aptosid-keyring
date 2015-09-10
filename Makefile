@@ -5,12 +5,7 @@ all:
 		--lock-never \
 		--no-default-keyring \
 		--keyring ./temp-keyring.kbx \
-		--import 0xE3BD538B.asc
-	gpg2 \
-		--lock-never \
-		--no-default-keyring \
-		--keyring ./temp-keyring.kbx \
-		--import 0xB1D142ED.asc
+		--import *.asc
 	gpg2 \
 		--lock-never \
 		--no-default-keyring \

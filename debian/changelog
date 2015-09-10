@@ -1,8 +1,8 @@
-aptosid-keyring (2015.09.12) UNRELEASED; urgency=medium
+aptosid-keyring (2015.09.12) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * optimise away one avoidable call to gpg2, thanks to DonKult.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Sep 2015 02:00:09 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Sep 2015 02:35:37 +0200
 
 aptosid-keyring (2015.09.11) unstable; urgency=medium
 
