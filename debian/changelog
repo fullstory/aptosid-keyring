@@ -1,3 +1,9 @@
+aptosid-keyring (2015.09.12) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Sep 2015 02:00:09 +0200
+
 aptosid-keyring (2015.09.11) unstable; urgency=medium
 
   * switch to gnupg2 for assembling a gnupg v1.4 compatible keyring, which
