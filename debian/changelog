@@ -1,3 +1,9 @@
+aptosid-keyring (2016.07.30) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Jul 2016 01:28:27 +0200
+
 aptosid-keyring (2016.07.29) unstable; urgency=medium
 
   * bump standards version to 3.9.8, no changes necessary.
