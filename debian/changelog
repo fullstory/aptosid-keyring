@@ -1,8 +1,14 @@
-aptosid-keyring (2015.09.13) UNRELEASED; urgency=medium
+aptosid-keyring (2016.07.29) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * bump standards version to 3.9.8, no changes necessary.
+  * make lintian happier by using https as transport protocol for the upstream
+    location.
+  * relicense under ISC, there isn't really anything copyrightable, so keep it
+    simple.
+  * explicitly set --homedir for gpg2, as recent versions start to require
+    this directory to exist.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 10 Sep 2015 02:36:41 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 29 Jul 2016 01:27:09 +0200
 
 aptosid-keyring (2015.09.12) unstable; urgency=medium
 
