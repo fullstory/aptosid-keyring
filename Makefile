@@ -13,6 +13,7 @@ all:
 		--no-default-keyring \
 		--keyring ./temp-keyring.kbx \
 		--export >aptosid-archive-keyring.gpg
+	gpgconf --kill gpg-agent
 	$(RM) temp-keyring.kbx temp-keyring.kbx~
 	$(RM) aptosid-archive-keyring.gpg~
 
