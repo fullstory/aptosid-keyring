@@ -1,3 +1,9 @@
+aptosid-keyring (2016.08.06) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 05 Aug 2016 03:52:39 +0200
+
 aptosid-keyring (2016.08.05) unstable; urgency=medium
 
   * make sure that gpg-agent gets killed.
