@@ -3,7 +3,7 @@ Section: misc
 Priority: extra
 Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
 Build-Depends: debhelper (>= 9.20120115)
-Build-Depends-Indep: gnupg2
+Build-Depends-Indep: gnupg (>= 2.1.14-5)
 Standards-Version: 3.9.8
 Vcs-git: https://github.com/fullstory/aptosid-keyring.git
 Vcs-Browser: https://github.com/fullstory/aptosid-keyring
@@ -12,7 +12,7 @@ Package: aptosid-archive-keyring
 Architecture: all
 Depends: ${misc:Depends},
  debian-archive-keyring
-Suggests: gnupg2 | gnupg
+Suggests: gnupg2 (>= 2.1.14-5)
 Description: GnuPG archive keys of the aptosid archive
  The archive project digitally signs its release files. This package contains
  the archive keys used for that and can be used to support signature 

@@ -1,8 +1,8 @@
-aptosid-keyring (2016.08.06) UNRELEASED; urgency=medium
+aptosid-keyring (2016.08.13) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * gnupg 2.1.14-5 switched over to gpg2, adapt the package accordingly.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 05 Aug 2016 03:52:39 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 13 Aug 2016 23:55:56 +0200
 
 aptosid-keyring (2016.08.05) unstable; urgency=medium
 

@@ -1,13 +1,13 @@
 #!/usr/bin/make -f
 
 all:
-	gpg2 \
+	gpg \
 		--homedir $$(pwd)/.gnupg \
 		--lock-never \
 		--no-default-keyring \
 		--keyring ./temp-keyring.kbx \
 		--import *.asc
-	gpg2 \
+	gpg \
 		--homedir $$(pwd)/.gnupg \
 		--lock-never \
 		--no-default-keyring \
