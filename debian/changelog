@@ -1,8 +1,8 @@
-aptosid-keyring (2016.08.14) UNRELEASED; urgency=medium
+aptosid-keyring (2016.08.14) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * actually suggest gnupg >= 2.1.14-5.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Aug 2016 00:02:09 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Aug 2016 00:04:23 +0200
 
 aptosid-keyring (2016.08.13) unstable; urgency=medium
 

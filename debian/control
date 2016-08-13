@@ -12,7 +12,7 @@ Package: aptosid-archive-keyring
 Architecture: all
 Depends: ${misc:Depends},
  debian-archive-keyring
-Suggests: gnupg2 (>= 2.1.14-5)
+Suggests: gnupg (>= 2.1.14-5)
 Description: GnuPG archive keys of the aptosid archive
  The archive project digitally signs its release files. This package contains
  the archive keys used for that and can be used to support signature 
