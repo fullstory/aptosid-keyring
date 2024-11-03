@@ -1,8 +1,14 @@
-aptosid-keyring (2016.08.15) UNRELEASED; urgency=medium
+aptosid-keyring (2016.08.15) unstable; urgency=medium
 
-  * NOT RELEASED YET
+  * switch to compat level 13.
+  * bump standards version to 3.9.8, no changes necessary.
+  * make lintian a little happier:
+    - source: cute-field Vcs-git vs Vcs-Git
+    - source: insecure-copyright-format-uri
+    - source: silent-on-rules-requiring-root
+    - source: trailing-whitespace [debian/changelog:237]
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 14 Aug 2016 00:04:57 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 23:00:23 +0100
 
 aptosid-keyring (2016.08.14) unstable; urgency=medium
 
