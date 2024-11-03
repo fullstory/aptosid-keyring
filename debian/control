@@ -16,7 +16,7 @@ Depends: ${misc:Depends},
 Suggests: gnupg (>= 2.1.14-5)
 Description: GnuPG archive keys of the aptosid archive
  The archive project digitally signs its release files. This package contains
- the archive keys used for that and can be used to support signature 
+ the archive keys used for that and can be used to support signature
  verification ("apt-secure") for:
   - Release signature verification for aptosid (Release.gpg)
   - Packages, Sources md5sum verification against Release
