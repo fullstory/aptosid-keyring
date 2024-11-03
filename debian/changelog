@@ -1,3 +1,9 @@
+aptosid-keyring (2024.11.04) UNRELEASED; urgency=medium
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 03 Nov 2024 23:03:42 +0100
+
 aptosid-keyring (2024.11.03) unstable; urgency=medium
 
   * switch to compat level 13.
